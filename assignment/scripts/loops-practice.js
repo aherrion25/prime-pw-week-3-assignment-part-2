@@ -56,12 +56,11 @@ console.log('---- 3. While loop ----');
 
 // 3.a. TODO: Write a while loop to console.log each star in the 'stars' array
 console.log('Some stars using while:');
-
-
-
+// can't seem to get the loop to show all names one after another just shows one name.
+stars = stars[3];
 while (stars) {
-  console.log();
-  
+    console.log('Some stars using while:', stars);
+    stars -= 1;
 }
 
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
